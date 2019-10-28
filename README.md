@@ -15,7 +15,7 @@ The datasets are available in the [Resources section of the challenge](#) (**TOD
 
 Where : 
 
-* `training_phase2.csv` contains `1600650` records, with the following columns : 
+* `training_phase2.csv` contains `1600649` records, with the following columns : 
 ```
 index,intclinicaltrialid,intdesignkeywordid,strdesignkeyword,intlocationid,strlocation,intregulatorystatusid,strregulatorystatus,intterminationreasonid,strterminationreason,inttherapeuticareaid,strtherapeuticarea,inttrialstatusid,strtrialstatus,intactualaccrual,inttargetaccrual,intdrugnameid,drugname,strsponsor,intsponsorid,introuteid,route_description,intmediumid,medium_description,dataset,intphaseendyear,outcome,intoutcomeyear,intyearlaunched,intmaxendyear
 ```
@@ -24,8 +24,8 @@ With the following columns :
 
     - `index` : Unique ID of each record
     - `intclinicaltrialid` : description to be added
-    - `intdesignkeywordid` : strdesignkeyword
-    - `strdesignkeyword` : strdesignkeyword
+    - `intdesignkeywordid` : description to be added
+    - `strdesignkeyword` : description to be added
     - .... and so on 
 
 

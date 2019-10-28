@@ -16,13 +16,13 @@ def execution_start():
                 event_type=aicrowd_events.AICROWD_EVENT_INFO,
                 message="execution_started",
                 payload={ #Arbitrary Payload
-                    "event_type": "snakes_challenge:execution_started"
+                    "event_type": "novartis_dsai_challenge:execution_started"
                     }
                 )
 
 
 def execution_progress(progress_payload):
-    image_ids = progress_payload["image_ids"]
+    index_ids = progress_payload["index_ids"]
     ########################################################################
     # Register Evaluation Progress event
     ########################################################################
@@ -30,8 +30,8 @@ def execution_progress(progress_payload):
                 event_type=aicrowd_events.AICROWD_EVENT_INFO,
                 message="execution_progress",
                 payload={ #Arbitrary Payload
-                    "event_type": "snakes_challenge:execution_progress",
-                    "image_ids" : image_ids
+                    "event_type": "novartis_dsai_challenge:execution_progress",
+                    "index_ids" : index_ids
                     }
                 )
 
@@ -48,7 +48,7 @@ def execution_success(payload):
                 event_type=aicrowd_events.AICROWD_EVENT_SUCCESS,
                 message="execution_success",
                 payload={ #Arbitrary Payload
-                    "event_type": "snakes_challenge:execution_success",
+                    "event_type": "novartis_dsai_challenge:execution_success",
                     "predictions_output_path" : predictions_output_path
                     },
                 blocking=True
@@ -62,7 +62,7 @@ def execution_error(error):
                 event_type=aicrowd_events.AICROWD_EVENT_ERROR,
                 message="execution_error",
                 payload={ #Arbitrary Payload
-                    "event_type": "snakes_challenge:execution_error",
+                    "event_type": "novartis_dsai_challenge:execution_error",
                     "error" : error
                     },
                 blocking=True
