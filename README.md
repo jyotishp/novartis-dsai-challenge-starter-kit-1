@@ -43,7 +43,7 @@ The predictions should be a valid CSV file with the same number of rows as the n
 - `prob_pipeline` : Probability (`[0, 1]`) that the outcome of this trial would be `pipeline`
 - `prob_failure` : Probability (`[0, 1]`) that the outcome of this trial would be `failure`
 
-The sum of the probabilities across all the snake-species columns should be `< 1.0`.
+The sum of the probabilities across all the columns should be `< 1.0`.
 
 # Random prediction
 A sample script which generates a random prediction for the whole test set is included in the [run.py](run.py). The included inline comments better illustrate the structure expected. Please ensure to use the following environment variables : 
