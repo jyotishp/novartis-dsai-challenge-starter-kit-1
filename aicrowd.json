@@ -1,6 +1,7 @@
 {
-    "challenge_id" : "snake-species-identification-challenge",
-    "grader_id": "snake-species-identification-challenge",
+    "challenge_id" : "novartis_dsai_challenge_2019",
+    "grader_id": "novartis_dsai_challenge_2019",
     "authors" : ["aicrowd-bot"],
-    "description" : "Snakes Random Agent"
+    "description" : "Novartis DSAI Random Agent",
+    "debug": true
 }
