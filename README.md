@@ -67,14 +67,15 @@ Each repository should have a aicrowd.json file with the following fields:
 
 ```
 {
-    "challenge_id" : "novartis-dsai-challenge",
-    "grader_id": "novartis-dsai-challenge",
+    "challenge_id" : "novartis_dsai_challenge_2019",
+    "grader_id": "novartis_dsai_challenge_2019",
     "authors" : ["aicrowd-user"],
-    "description" : "Novartis DSAI Random Predictor"
+    "description" : "Novartis DSAI Random Predictor",
+    "debug": false
 }
 ```
 
-This file is used to identify your submission as a part of the Novartis DSAI Challenge.  You must use the `challenge_id` and `grader_id` specified above in the submission. 
+This file is used to identify your submission as a part of the Novartis DSAI Challenge.  You must use the `challenge_id` and `grader_id` specified above in the submission. The `debug` mode runs submission with subset of complete data and can be used for faster debug cycle. 
 
 #### Submission environment configuration
 
