@@ -105,7 +105,7 @@ git clone https://github.com/AIcrowd/novartis-dsai-challenge-starter-kit novarti
 cd novartis-dsai-challenge
 
 # Add AICrowd git remote endpoint
-git remote add aicrowd git@gitlab.aicrowd.com:<YOUR_AICROWD_USER_NAME>/novartis-dsai-challenge.git
+git remote add aicrowd https://github.com/AIcrowd/<YOUR_AICROWD_USER_NAME>/novartis-dsai-challenge.git
 git push aicrowd master
 
 # Create a tag for your submission and push
