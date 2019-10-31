@@ -105,7 +105,7 @@ git clone https://github.com/AIcrowd/novartis-dsai-challenge-starter-kit novarti
 cd novartis-dsai-challenge
 
 # Add AICrowd git remote endpoint
-git remote add aicrowd https://github.com/AIcrowd/<YOUR_AICROWD_USER_NAME>/novartis-dsai-challenge.git
+git remote add aicrowd git@gitlab.aicrowd.com:<YOUR_AICROWD_USER_NAME>/novartis-dsai-challenge.git
 git push aicrowd master
 
 # Create a tag for your submission and push
@@ -117,7 +117,7 @@ git push aicrowd submission-v0.1
 # then pushing a new tag will not trigger a new evaluation.
 ```
 You now should be able to see the details of your submission at : 
-[gitlab.aicrowd.com/<YOUR_AICROWD_USER_NAME>/novartis-dsai-challenge/issues](gitlab.aicrowd.com/<YOUR_AICROWD_USER_NAME>/novartis-dsai-challenge/issues)
+[gitlab.aicrowd.com/<YOUR_AICROWD_USER_NAME>/novartis-dsai-challenge/issues](https://gitlab.aicrowd.com/<YOUR_AICROWD_USER_NAME>/novartis-dsai-challenge/issues)
 
 **Best of Luck**
 
